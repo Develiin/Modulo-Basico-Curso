@@ -1,0 +1,36 @@
+#principal{
+    color:blueviolet;
+}
+#titulo{
+    color:blue;
+}
+
+/* 
+#titulo{        usado # para chamar id do html
+    color:blue;
+} 
+*/
+
+.texto_verde{
+    color:green;
+}
+/* 
+.texto_verde{     --usado . para chamar class do html
+    color:green;
+} 
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
