@@ -5,38 +5,57 @@
             <title> Minha primeira página </title>
             <meta charset="utf-8">
 
- <!-- É possivel utilizar o CSS também dentro do Head criando um style e dentro dele colocar todas OS ESTILOS que quiser fazer de CSS porém ele irá  pegar e fazer essa alteração em todos os <p> que sãoos paragrafos já que é isso que está sendo comandado-->
-           <!-- CSS INTERNO --
-    <style>
-        p{
-            color:blue;
-        }
-        </style> -->     
+            <!-- É possivel utilizar o CSS também dentro do Head criando um style e dentro dele colocar todas OS ESTILOS que quiser fazer de CSS porém ele irá  pegar e fazer essa alteração em todos os <p> que sãoos paragrafos já que é isso que está sendo comandado-->
+            
+            <!-- CSS INTERNO --
+            <style>
+                p{
+                    color:blue;
+                }
+            </style> 
+            -->     
         
-        <link href=' style.css' rel='stylesheet'> 
-        <!-- é utilizado para lincar as duas paginas HTML e CSS-->
-
+            <link href=' style.css' rel='stylesheet'> 
+            <!-- é utilizado para lincar as duas paginas HTML e CSS-->
 
         </head>
 
         <body>
-            <h1> Évelin Thaina da Luz </h1>
+            <!-- Usar # = referência -->
+            <!-- Utilização da tag <a> pra ir a um lugar determinado na mesma página. Nesse caso ao clicar, é levado até a img do sorvete de flocos -->
+            <a href='#Sorvete-de-flocos'>Flocos</a>
+            <h1 id='titulo'> Évelin Thaina da Luz</h1>
             <h2> A mais nova dev </h2>
 
-            <!-- CSS INLINE -- coloca dentro do código HTML Style (que é o estilo) manda ele fazer o comando que você queira, como por exemplo color:blue ou widht ou qualquer edição do CSS
-            <p style='color:blueviolet'> Hoje dia 17 de janeiro de 2022 comecei a estudar Programação devido ao apoio do meu parceiro. Em busca dos EUA, do dinheiro e da liberdade.</p> -->
-            <p> Hoje dia 17 de janeiro de 2022 comecei a estudar Programação devido ao apoio do meu parceiro. Em busca dos EUA, do dinheiro e da liberdade.</p>
-            <p> Este é um <strong> texto em negrito </strong> </p>
-            <!-- <p> Este é um <b> texto em negrito </b> </p> -->
-            <!-- A tag <b> serve para deixar o texto em negrito somente -->
-                <!-- A tag strong serve para deixar o texto em negrito e também avisa o google ou o mecanismo que for usado informando que onde está em negrito é mais importante que o restante -->
+            <!-- CSS INLINE
+                Colocado dentro do código HTML, a tag <Style></Style>(que é o estilo) manda ele fazer o comando que você queira, como por exemplo color:blue ou widht ou qualquer edição do CSS
+                Exemplo:
+                    <p style='color:blueviolet'> Hoje dia 17 de janeiro de 2022 comecei a estudar Programação devido ao apoio do meu parceiro. Em busca dos EUA, do dinheiro e da liberdade.</p> 
+            -->
+            <p id='principal'> Hoje dia 17 de janeiro de 2022 comecei a estudar Programação devido ao apoio do meu parceiro. Em busca dos EUA, do dinheiro e da liberdade.</p>
+            
+            
+            <!--
+                Class='escrever-tudo-junto' para o html
+                    Exemplo: class='texto_verde'
+            --> 
+            <p class='texto_verde'> Este é um <strong> texto em negrito </strong> </p>
+            <!--
+                A tag <b> serve para deixar o texto em negrito somente
+                Exemplo:
+                    <p>Este é um <b>texto em negrito</b></p> 
+            -->
+
+            <!--
+                A tag <strong></strong> serve para deixar o texto em negrito e também informa ao google ou outro mecanismo de busca que o texto destacado é o mais importante
+            -->
            
-            <p> Esse é um <i> texto em itálico </i> </p>
+            <p class='texto_verde'> Esse é um <i> texto em itálico </i> </p>
                 <!--  <p> Esse é um <i> texto em itálico </i> </p>  PODE SER UTILIZADO COM A TAG <i> para deixar o texto em Italico-->
                 <!--  <p> Esse é um <em> texto em itálico </em> (enfase) </p>  PODE SER UTILIZADO COM A TAG <em> (enfase) para deixar o texto em Italico e dar enfase e também para um significado maior para o google e etc-->
                 <!-- são tags utilizadas para formatação e não fazem quebra de linha fazendo que o texto passe para próxima linha  -->
             
-            <p> Esse é um <mark> texto com marcação </mark> </p>
+            <p class='texto_verde'> Esse é um <mark> texto com marcação </mark> </p>
             <!-- marca de texto-->
             <p> Esse é um texto <small> com a tag small </small> </p>
             <!--texto pequeno-->
@@ -59,7 +78,12 @@
             <!--  <a href= 'sobre.html'> sobre ProgramadorBr</a>
                   <a href= 'index.html'>página principal </a>-->
 
-            <img src="https://foodbase.com.br/storage/app/media/receitas/2021/01/sorvete-de-flocos-co-d.jpg" alt=' Sorvete de flocos'height=250 widht=500 >
+
+                  <!--  Utilizado para rolar para o lugar que estiver sendo referênciado
+                    Exemplo: id='Sorvete-de-flocos'  está referênciando a imagem do sorvete de flocos 
+                Se clicar no link onde está escrito flocos irá fazer rolagem até a imagem do sorvete-->
+                  
+            <img id='Sorvete-de-flocos' src="https://foodbase.com.br/storage/app/media/receitas/2021/01/sorvete-de-flocos-co-d.jpg" alt=' Sorvete de flocos'height=250 widht=500 >
             <br> <br> <br>  <!-- PARA DAR ESPAÇO ENTRE FOTOS E TEXTO SOMENTE ACRESCENTAR <br> quanto mais espaço mais <BR>-->
 
             <a href='https://revistaquem.globo.com/viagem-e-comida/noticia/2020/09/sorvete-de-kinkan-e-com-bacon-veja-dicas-receitas-e-sabores-diferentoes.html'>
@@ -101,17 +125,6 @@
                 </tr>
 
             </table>
-
-
-
-
-
-
-
-
-
-
-
 
 
             <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
