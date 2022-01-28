@@ -27,50 +27,57 @@
             <h1 id='titulo'> Évelin Thaina da Luz</h1>
             <h2> A mais nova dev </h2>
 
-            <!-- CSS INLINE
-                Colocado dentro do código HTML, a tag <Style></Style>(que é o estilo) manda ele fazer o comando que você queira, como por exemplo color:blue ou widht ou qualquer edição do CSS
-                Exemplo:
-                    <p style='color:blueviolet'> Hoje dia 17 de janeiro de 2022 comecei a estudar Programação devido ao apoio do meu parceiro. Em busca dos EUA, do dinheiro e da liberdade.</p> 
-            -->
-            <p id='principal'> Hoje dia 17 de janeiro de 2022 comecei a estudar Programação devido ao apoio do meu parceiro. Em busca dos EUA, do dinheiro e da liberdade.</p>
-            
-            
-            <!--
-                Class='escrever-tudo-junto' para o html
-                    Exemplo: class='texto_verde'
-            --> 
-            <p class='texto_verde'> Este é um <strong> texto em negrito </strong> </p>
-            <!--
-                A tag <b> serve para deixar o texto em negrito somente
-                Exemplo:
-                    <p>Este é um <b>texto em negrito</b></p> 
-            -->
+                <!-- CSS INLINE
+                    Colocado dentro do código HTML, a tag <Style></Style>(que é o estilo) manda ele fazer o comando que você queira, como por exemplo color:blue ou widht ou qualquer edição do CSS
+                    Exemplo:
+                        <p style='color:blueviolet'> Hoje dia 17 de janeiro de 2022 comecei a estudar Programação devido ao apoio do meu parceiro. Em busca dos EUA, do dinheiro e da liberdade.</p> 
+                -->
+             <div id='paragrafos'> 
+                 <!--
+                     Serve  para tudo virar apenas um elemento tudo o que estiver dentro dela
+                    <div id='paragrafos'></div> 
+                 -->
+                <p id='principal'> Hoje dia 17 de janeiro de 2022 comecei a estudar Programação devido ao apoio do meu parceiro. Em busca dos EUA, do dinheiro e da liberdade.</p>
+                
+                
+                <!--
+                    Class='escrever-tudo-junto' para o html
+                        Exemplo: class='texto_verde'
+                --> 
+                <p class='texto_verde'> Este é um <strong> texto em negrito </strong> </p>
+                <!--
+                    A tag <b> serve para deixar o texto em negrito somente
+                    Exemplo:
+                        <p>Este é um <b>texto em negrito</b></p> 
+                -->
 
-            <!--
-                A tag <strong></strong> serve para deixar o texto em negrito e também informa ao google ou outro mecanismo de busca que o texto destacado é o mais importante
-            -->
-           
-            <p class='texto_verde'> Esse é um <i> texto em itálico </i> </p>
-                <!--  <p> Esse é um <i> texto em itálico </i> </p>  PODE SER UTILIZADO COM A TAG <i> para deixar o texto em Italico-->
-                <!--  <p> Esse é um <em> texto em itálico </em> (enfase) </p>  PODE SER UTILIZADO COM A TAG <em> (enfase) para deixar o texto em Italico e dar enfase e também para um significado maior para o google e etc-->
-                <!-- são tags utilizadas para formatação e não fazem quebra de linha fazendo que o texto passe para próxima linha  -->
+                <!--
+                    A tag <strong></strong> serve para deixar o texto em negrito e também informa ao google ou outro mecanismo de busca que o texto destacado é o mais importante
+                -->
             
-            <p class='texto_verde'> Esse é um <mark> texto com marcação </mark> </p>
-            <!-- marca de texto-->
-            <p> Esse é um texto <small> com a tag small </small> </p>
-            <!--texto pequeno-->
-            <p> Esse é um <del> que foi removido </del> e substituido por esse  </p> 
-                <!-- serve para fazer a mesma função a tag S  sendo que o Dell tem semantica e o S não da mesma forma que a tag strong e a tag B-->
-            
-            <p> Esse é um <ins> texto que foi inserido </ins> </p>
-                <!-- Existe a tag u que faz a mesma coisa porém caiu em desuso -->
+                <p class='texto_verde'> Esse é um <i> texto em itálico </i> </p>
+                    <!--  <p> Esse é um <i> texto em itálico </i> </p>  PODE SER UTILIZADO COM A TAG <i> para deixar o texto em Italico-->
+                    <!--  <p> Esse é um <em> texto em itálico </em> (enfase) </p>  PODE SER UTILIZADO COM A TAG <em> (enfase) para deixar o texto em Italico e dar enfase e também para um significado maior para o google e etc-->
+                    <!-- são tags utilizadas para formatação e não fazem quebra de linha fazendo que o texto passe para próxima linha  -->
+                
+                <p class='texto_verde'> Esse é um <mark> texto com marcação </mark> </p>
+                <!-- marca de texto-->
+                <p> Esse é um texto <small> com a tag small </small> </p>
+                <!--texto pequeno-->
+            <div class='subDiv'>   
+                <!-- Exemplo de que <div></div> pode ser usado dentro de div para criar outro elemento-->
+                <p> Esse é um <del> que foi removido </del> e substituido por esse  </p> 
+                    <!-- serve para fazer a mesma função a tag S  sendo que o Dell tem semantica e o S não da mesma forma que a tag strong e a tag B-->
+                
+                <p> Esse é um <ins> texto que foi inserido </ins> </p>
+                    <!-- Existe a tag u que faz a mesma coisa porém caiu em desuso -->
 
-            <p> Esse é um <sub>texto subscript </sub> </p>
-                <!-- colocar um texto a baixo -->
-
-            <p> Esse é um <sup> texto superscript </sup> </p>
+                <p> Esse é um <sub>texto subscript </sub> </p>
+                    <!-- colocar um texto a baixo -->
+            </div>
+                <p> Esse é um <sup> texto superscript </sup> </p>
               <!-- colocar um texto a cima -->
-            
+            </div>
             <a href='Sobre.html'> Sobre ProgramadorBr</a>
             <br>
 
@@ -127,9 +134,30 @@
             </table>
 
 
+            <div id='cm'></div>
+            <div id='mm'></div>
+            <div id='in'></div>
+            <div id='px'></div>
+            <div id='pt'></div>
+            <div id='pc'></div>
+
+
+            texto no body
+            <div class='container'>
+                texto no container
+                <div class='inside'>
+                    texto no inside
+                </div>
+            </div>
+
+
+
+
+
             <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 
 
+           
 
 
 </html>
