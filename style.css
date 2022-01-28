@@ -1,13 +1,51 @@
-#principal{
-    color:blueviolet;
+
+body{
+    background-image: url(img/fundo_neutro.jpg);
 }
+
+
+
+#principal{
+    color:steelblue;  
+    background-image: url(img/azas.jfif);
+/*
+    É a cor de fundo pode ser feito com qualquer elemento
+    Exemplo: background-color:steelblue;
+       
+*/
+    background-repeat:repeat-x;   
+/*
+        Serve para que a image não repita varias vezes na tela até preencher
+        Exemplo: background-repeat:no-repeat; 
+          
+        Pode ser colocado também a opção de repetir apenas na horizontal ou apenas na vertical
+        Exemplo: background-repeat:repeat-x;   
+    
+*/
+    background-size: cover;
+
+/* 
+    Exemplo: background-size:cover;
+    cover quer dizer que irá cobrir a página toda
+
+*/
+    background-attachment:fixed;
+
+/*
+    Serve para deixar a imagem fixa enquanto rola a página
+ */
+}
+
+
+
 #titulo{
-    color:blue;
+    color:rgb(0,100,200);
 }
 
 /* 
 #titulo{        usado # para chamar id do html
-    color:blue;
+    color:rgb(0,0,200);          esse não tem opacidade
+    color:rgba(0,0,255,0)        esse tem opacidade  
 } 
 */
 
