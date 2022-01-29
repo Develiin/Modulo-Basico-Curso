@@ -97,16 +97,47 @@ body
 }
 
 .container{
-    font-size:20px;
+    
+    width:200px;
+    height:500px;
+    background:red;
+    
+    /*  
+    Exemplo:
+        width:50vw;      
+        REFERENTE A LARGURA vw
 
-/*  Exemplo:
+
+    Exemplo:
         font-size:20px;
         serve para modificar o tamanho da fonte
-*/
+        tamanho do texto padrão é de 16px
+
+
+    Exemplo:
+    width:50vh;
+    REFERENTE A ALTURA vh
+    */
 }
 
+
 .inside{
+    width:50%;
+    height:50%;
+    background:blue;
+
+    /*
+    Sempre irá se referir nesse caso ao elemento pai
+
+
     font-size:1em;
+    É uma vez o tamanho do elemento, que nesse caso é 20px
+    20px = 1em
+
+    width:100px;
+    Irá pegar 100% do tamanho do elemento pai
+    */
+
 }
 
 
