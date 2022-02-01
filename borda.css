@@ -1,0 +1,31 @@
+.borda{
+    border-width:5px;
+    border-color:blue;
+    border-radius:5px;
+    border-style:solid; 
+    
+    /*
+        PARA SE TER UMA BORDA PRECISA SE UMA EXPESSURA 
+        e UM ESTILO DE BORDA
+        Exemplo: border-style:solid;
+
+        Pode ser alterada  a cor da borda também para qualquer cor
+        border-color:blue;
+       
+        Pode ser alterado também o quanto a borda é arredondada
+        Exemplo: border-radius:5px;
+    */
+}
+
+.quadrado{
+    width:180px;
+    height:100px;
+    background-color:yellow; 
+}
+
+.dotted{border-top-style:dotted;}
+.dashed{border-style:dashed;}
+.solid{border-style:none;}
+.hidden{border-style:hidden;}
+
+
