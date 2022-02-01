@@ -1,9 +1,31 @@
 .borda{
     border-width:5px;
-    border-color:blue;
-    border-radius:5px;
-    border-style:solid; 
+    border-color:blue; 
+
+    /* 
+        Pode ser definido tamanho,estilo e cor também com um código mais curto 
+        Exemplo:border: 5px dashed blue;
+        SEGUINDO O PADRÃO DE ORDEM    
+    */
+
     
+    /*
+    Caso queira aplicar apenas em cima,em baixo,direito ou esquerdo a cor diferente da borda
+    Exemplo:
+        border-top-color:blue;
+        border-bottom-color:blue;
+        border-right-color:blue;
+        border-left-color:blue;
+        PARA COLOCAR BORDAS COLORIDAS
+        border-color:red (em cima) green (direito) blue (em baixo) yellow (esquerdo)
+
+        Pode ser usado para definir em todas as outras maneiras também, como cada lado da borda ter uma expessura e assim por diante
+    */
+ 
+}
+    
+
+
     /*
         PARA SE TER UMA BORDA PRECISA SE UMA EXPESSURA 
         e UM ESTILO DE BORDA
@@ -15,17 +37,17 @@
         Pode ser alterado também o quanto a borda é arredondada
         Exemplo: border-radius:5px;
     */
-}
 
-.quadrado{
-    width:180px;
-    height:100px;
-    background-color:yellow; 
-}
+      .quadrado{
+        width:100px;
+        height:100px;
+        background-color:yellow;} 
+    
 
-.dotted{border-top-style:dotted;}
+.dotted{border-style:dotted;}
 .dashed{border-style:dashed;}
-.solid{border-style:none;}
+.solid{border-style:solid;}
+.none{border-style:none}
 .hidden{border-style:hidden;}
 
 
