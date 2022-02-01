@@ -134,10 +134,42 @@ body
     É uma vez o tamanho do elemento, que nesse caso é 20px
     20px = 1em
 
-    width:100px;
+    width:100%;
     Irá pegar 100% do tamanho do elemento pai
     */
 
+}
+
+#base{
+    height:10px;
+    background-color:red;
+}
+
+#container{
+    background-color:blue;
+    color:white;
+    padding:10px;
+    margin:10px;
+
+      
+    /*
+        O padding distancia o elemento das bordas pra dentro 
+        Exemplo: padding-top:10px
+        
+
+    
+        margin-top:10px;
+        margin-left:10px;
+
+        A margin distancia o elemento das bordas pra fora 
+        Exemplo:margin-top:10px; 
+        Nesse caso vai distanciar do topo, podendo ser também em baixo, esquerda ou direita 
+    
+        Caso necessite fazer em todos os lados o mesmo distanciamento 
+        Exemplo:margin:10px
+        Todos os lados terão o mesmo distanciamento
+
+    */
 }
 
 
