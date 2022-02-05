@@ -1,0 +1,46 @@
+.links{
+text-decoration: none;
+color:blue;
+/*
+    background:#bc2835;
+    Usado para cor de fundo
+ */ 
+border:2px solid #bc2835;
+padding-bottom:5px;
+padding:10px;
+padding-top:5px;
+border-radius:18px;
+/* 
+    Para trocar a 'mãozinha' do mouse de link para outros desenhos 
+    cursor:crosshair;  
+*/
+
+}
+
+.links:hover{
+    background:#bc2835;
+    color:white;
+   
+    /* 
+        hover é um atributo para uma class, sendo assim ele identifica quando o cursor do mouse 
+        passa em cima da class e altera as propriedades descritas com class:hover 
+    */
+}
+
+.links:active{
+    /* 
+        active é um atributo para uma class, sendo assim ele identifica quando é clicado
+        em cima do elemento e altera as propriedades descritas para a class:active 
+    */
+    background:blue;
+    color:#fff;
+    font-size:20px;
+}
+
+.links:visited{
+    /* 
+        links que ja foram visitados, já foram clicados
+    */
+    border-color:#ddd;
+    color:#ddd;
+}
