@@ -1,0 +1,28 @@
+.paragrafo-1{
+ color:blueviolet;
+font-family:helvetica, arial, sans-serif; /* caso no computador/navegador do usuario não tenha essa font irá puxa a fonte generica que é a sans serif*/
+font-style:italic; 
+font-size:  1.5em; /* pode ser usado qualquer unidade de medida*/
+}
+
+
+.paragrafo-2{
+color:coral;
+font-style:normal; /* caso não colocar um estilo o normal é o padrão*/
+font-size:22px;
+}
+
+.paragrafo-3{
+    font-family:Times;
+    font-variant:small-caps; /* TODAS AS LETRAS FICAM MAIUSCULS , PORÉM AINDA É POSSIVEL DISTINGUIR  NO TEXTO QUAL PALAVRA QUE COMEÇA COM A MAIUSCULA E QUAL NÃO DEVIDO A DAR DIFERENÇA DE TAMANHO*/
+    font-weight:900;
+    font-size:1em;    /* padrão do tamanho da fonte é 1em */
+    
+    /*
+        Para colocar em negrito é usado outra propriedade diferente da que é usado para italico
+        Exemplo:font-weight:bold; 
+        Pode ser usado também para colocar em negrito numeros de 100 a 900
+        sendo 100 mais fino que o normal, 400 expessura normal e acima de 400 é negrito, podendo deixar mais grossa a fonte até 900
+ 
+    */
+}
