@@ -1,0 +1,184 @@
+
+body
+
+
+
+
+
+#paragrafos{
+    color:darkblue;  
+    background-image: url(img/fundo.jpg);
+/*
+    É a cor de fundo pode ser feito com qualquer elemento
+    Exemplo: background-color:steelblue;
+       
+*/
+    background-repeat:repeat-x;    
+/*
+        Serve para que a image não repita varias vezes na tela até preencher
+        Exemplo: background-repeat:no-repeat; 
+          
+        Pode ser colocado também a opção de repetir apenas na horizontal ou apenas na vertical
+        Exemplo: background-repeat:repeat-x;   
+    
+*/
+    background-size: cover; 
+
+/* 
+    Exemplo: background-size:cover;
+    cover quer dizer que irá cobrir a página toda
+
+*/
+    background-attachment:fixed; 
+
+/*
+    Serve para deixar a imagem fixa enquanto rola a página
+ */
+}
+
+.subDiv{
+    background:rgb(110, 70, 56)
+}
+
+#titulo{
+    color:rgb(0,100,200);
+}
+
+/* 
+#titulo{        usado # para chamar id do html
+    color:rgb(0,0,200);          esse não tem opacidade
+    color:rgba(0,0,255,0)        esse tem opacidade  
+} 
+*/
+
+.texto_verde{
+    color:green;
+}
+/* 
+.texto_verde{     --usado . para chamar class do html
+    color:green;
+} 
+*/
+
+#cm{
+    background-color:darkslateblue;
+    width:1cm;
+    height:1cm;
+}
+
+#mm{
+    background-color:darkmagenta;
+    width:1mm;
+    height:1mm;
+}
+
+#in{
+    background-color:darkslateblue;
+    width:1in;
+    height:1in;
+}
+
+#px{
+    background-color:darkmagenta;
+    width:10px;
+    height:10px;
+}
+
+#pt{
+    background-color:darkslateblue;
+    width:10pt;
+    height:10pt;
+}
+
+#pc{
+    background-color:darkmagenta;
+    width:1pt;
+    height:1pt;
+}
+
+.container{
+    
+    width:200px;
+    height:500px;
+    background:red;
+    
+    /*  
+    Exemplo:
+        width:50vw;      
+        REFERENTE A LARGURA vw
+
+
+    Exemplo:
+        font-size:20px;
+        serve para modificar o tamanho da fonte
+        tamanho do texto padrão é de 16px
+
+
+    Exemplo:
+    width:50vh;
+    REFERENTE A ALTURA vh
+    */
+}
+
+
+.inside{
+    width:50%;
+    height:50%;
+    background:blue;
+
+    /*
+    Sempre irá se referir nesse caso ao elemento pai
+
+
+    font-size:1em;
+    É uma vez o tamanho do elemento, que nesse caso é 20px
+    20px = 1em
+
+    width:100%;
+    Irá pegar 100% do tamanho do elemento pai
+    */
+
+}
+
+#base{
+    height:10px;
+    background-color:red;
+}
+
+#container{
+    background-color:blue;
+    color:white;
+    padding:10px;
+    margin:10px;
+
+      
+    /*
+        O padding distancia o elemento das bordas pra dentro 
+        Exemplo: padding-top:10px
+        
+
+    
+        margin-top:10px;
+        margin-left:10px;
+
+        A margin distancia o elemento das bordas pra fora 
+        Exemplo:margin-top:10px; 
+        Nesse caso vai distanciar do topo, podendo ser também em baixo, esquerda ou direita 
+    
+        Caso necessite fazer em todos os lados o mesmo distanciamento 
+        Exemplo:margin:10px
+        Todos os lados terão o mesmo distanciamento
+
+    */
+}
+
+
+
+
+
+
+
+
+
+
+

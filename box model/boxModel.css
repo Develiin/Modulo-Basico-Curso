@@ -1,0 +1,43 @@
+body{
+    padding:0;
+    margin:0;
+}
+.container{
+    background-color:red;
+    padding:5px;
+    border:5px solid blue;
+    margin:10px;
+}
+.content{
+    background-color:#dddd;
+    border:5px solid green;
+    padding:5px
+}
+
+.square{
+    width:100px;
+    height:100px;
+    background-color:yellow;
+    border:10px solid blueviolet;  
+    padding:10px;
+    box-sizing: border-box; 
+    
+    /* Sempre levar em conta borda, padding, margin quando criar uma tela para não acabar atrapalhando na hora de fazer */
+            
+    /*  
+        Pode ser forçado para ficar tudo dentro do tamanho que quer
+        Você quer que a borda respeite o tamanho de altura e largura de 100px
+        Exemplo: box-sizing: border-box; 
+
+        Exemplo:quando quer ajustar alguma coisa na tela
+        box-sizing;
+    */
+}
+
+.square2{
+    width:100px;
+    height:100px;
+    background-color:yellow;
+
+
+}

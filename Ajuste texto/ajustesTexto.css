@@ -1,0 +1,60 @@
+.paragrafo-1{
+   color: red;
+   text-align: center; /* para alinhar ao centro (center) */
+   text-align:justify; /* justifica o texto fazndo as palavras ficarem todas alinhadas*/
+   text-indent:20px; /* seve para fazer a identação do texto, pode ser regulado conforme o tamanho que desejar, se quiser mais identado*/
+   text-decoration:underline; /* serve para sublinhar o texto *
+   text-transform:capitalize;  /* todas as palavras do texto com a primeira letra maiuscula */
+
+}
+
+.paragrafo-2{
+    text-align:right; /* Serve para alinhar a direita right */
+    color:blue;
+    text-transform:uppercase; /*texto todo em Maiusculo  */
+    text-decoration:overline;
+    text-shadow:2px 1px #bbb;
+
+   /* Para colocar sombra no texto 
+   Recebe três valores o primeiro equivale o deslocamento pra direita, deslocamento para baixo e a cor da sombra
+    Exemplo:text-shadow:2px 1px #bbb;*/
+}
+
+.paragrafo-3{
+    text-align:left; /* o padrão left é a esquerda */
+    text-transform:lowercase;  /*todo texto em minusculo inclusive o que estava em maiusculo*/
+    color:blueviolet;
+    text-decoration:line-through;
+    letter-spacing:1.2px; 
+    /* 
+    Espaço entre as letras                           
+    Por padrão o espaço entre as letras é 0                      
+    Pode ser usado também valores negativos para deixar as letras umas por cima das outras*/
+    
+    line-height:10px; 
+    /* 
+        Altura da linha, distanciamento entre as linhas 
+        Além das unidades de pixel e etc pode ser usado também  um número ou porcentagem
+        Que será um multiplicador pelo tamanho das fonte tipo
+        exemplo: 3x o tamanho da fonte 
+    */
+ }
+
+.paragrafo-4{
+    color:rgb(255, 0, 119);
+    text-decoration:line-through underline overline;
+    word-spacing: 5px;
+    /* 
+        a separação maior entre uma palavra e outra
+    */
+
+}
+
+    a{
+    text-decoration:none; 
+    }
+    /* 
+        Para mostrar o exemplo somente que o link está ali
+        Pode ser usado também no estado de texto decorado para dizer não tem, sem sublinhado
+    */
+ 
