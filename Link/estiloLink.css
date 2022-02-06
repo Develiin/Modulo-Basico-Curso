@@ -18,7 +18,7 @@ border-radius:18px;
 }
 
 .links:hover{
-    background:#bc2835;
+    background:black;
     color:white;
    
     /* 
@@ -32,7 +32,7 @@ border-radius:18px;
         active é um atributo para uma class, sendo assim ele identifica quando é clicado
         em cima do elemento e altera as propriedades descritas para a class:active 
     */
-    background:blue;
+    background:violet;
     color:#fff;
     font-size:20px;
 }
