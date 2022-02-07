@@ -17,8 +17,8 @@ ol{
              Exemplos de marcadores de lista
 
         list-style-type:none; Quando não tem nada na frente     
-        list-style-type:upper-roman; maiusculo
-        list-style-type:lower-roman; minusculo
+        list-style-type:upper-roman; numeros romanos maiusculo
+        list-style-type:lower-roman; numeros romanos minusculo
         list-style-type:lower-alpha; letras minusculas abc...
         list-style-type:upper-alpha; letras maisuculas abc...
      */
